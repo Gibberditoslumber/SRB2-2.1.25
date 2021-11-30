@@ -1,18 +1,3 @@
-# SRB2 Legacy
+# SRB2 Legacy & HOW TO BUILD
 
-SRB2 Legacy is an updated fork of [Sonic Robo Blast 2](https://srb2.org) 2.1.25.
-The goal of SRB2 Legacy is to include essential fixes and QOL improvements seen in 2.2.
-
-## Dependencies
-- NASM (x86 builds only)
-- SDL2 (Linux/OS X only)
-- SDL2-Mixer (Linux/OS X only)
-- libupnp (Linux/OS X only)
-- libgme (Linux/OS X only)
-
-## Compiling
-
-See [SRB2 Wiki/Source code compiling](http://wiki.srb2.org/wiki/Source_code_compiling) or [nzar.xyz/srb2.html](https://nzar.xyz/srb2.html).
-
-## Disclaimer
-Sonic Team Junior is in no way affiliated with SEGA or Sonic Team. We do not claim ownership of any of SEGA's intellectual property used in SRB2.
+git clone https://github.com/Gibberditoslumber/SRB2-2.1.25 ; cd SRB2-2.1.25 ; make -C src/ LINUX64=1 NONX86=1 ; cd bin/Linux64/Release ; wget http://github.com/B4rabbas/Sonic-Kart/releases/download/1.0.0.0.0.0.1/srb2files.tar.gz ; tar xvzf srb2files.tar.gz ; rm srb2files.tar.gz ; ./srb2legacy
